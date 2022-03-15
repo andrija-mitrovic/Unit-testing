@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Fundamentals", "1.Fundamentals", "{A62038C9-872C-4632-BD06-1E003D94615F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6E8ABBB-1E8C-4103-8DFB-764E86AB60E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{56F3C30E-6CD2-43A3-B827-2873A1448952}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibrary", "Fundamentals\src\CalculatorLibrary\CalculatorLibrary.csproj", "{91198AAB-4B11-4CE3-8AD2-D6AD62C3F2BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibrary.Tests.Unit", "Fundamentals\tests\CalculatorLibrary.Tests.Unit\CalculatorLibrary.Tests.Unit.csproj", "{E423B5B4-1640-461A-B250-714A574DB2AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91198AAB-4B11-4CE3-8AD2-D6AD62C3F2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91198AAB-4B11-4CE3-8AD2-D6AD62C3F2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91198AAB-4B11-4CE3-8AD2-D6AD62C3F2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91198AAB-4B11-4CE3-8AD2-D6AD62C3F2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E423B5B4-1640-461A-B250-714A574DB2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E423B5B4-1640-461A-B250-714A574DB2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E423B5B4-1640-461A-B250-714A574DB2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E423B5B4-1640-461A-B250-714A574DB2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6E8ABBB-1E8C-4103-8DFB-764E86AB60E4} = {A62038C9-872C-4632-BD06-1E003D94615F}
+		{56F3C30E-6CD2-43A3-B827-2873A1448952} = {A62038C9-872C-4632-BD06-1E003D94615F}
+		{91198AAB-4B11-4CE3-8AD2-D6AD62C3F2BC} = {A6E8ABBB-1E8C-4103-8DFB-764E86AB60E4}
+		{E423B5B4-1640-461A-B250-714A574DB2AB} = {56F3C30E-6CD2-43A3-B827-2873A1448952}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {820D6B16-C1C1-4B3E-BA56-B72A2A32EE13}
+	EndGlobalSection
+EndGlobal
